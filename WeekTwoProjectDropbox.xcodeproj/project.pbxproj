@@ -14,6 +14,15 @@
 		7C99E73A1BB852530072689A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C99E7381BB852530072689A /* LaunchScreen.storyboard */; };
 		7C99E7451BB852530072689A /* WeekTwoProjectDropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C99E7441BB852530072689A /* WeekTwoProjectDropboxTests.swift */; };
 		7C99E7501BB852530072689A /* WeekTwoProjectDropboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C99E74F1BB852530072689A /* WeekTwoProjectDropboxUITests.swift */; };
+		7C99E75E1BB852770072689A /* IntroScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C99E75D1BB852770072689A /* IntroScrollViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7C99E7621BB858680072689A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C99E7611BB858680072689A /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7C99E7661BB960610072689A /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C99E7651BB960610072689A /* PopUpViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7C99E76E1BB97A690072689A /* PageScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C99E76D1BB97A690072689A /* PageScrollViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7C99E7701BB9CFDD0072689A /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C99E76F1BB9CFDD0072689A /* Common.swift */; settings = {ASSET_TAGS = (); }; };
+		7C99E7721BB9E8830072689A /* WeekOneProjectDropbox.NextResponderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C99E7711BB9E8830072689A /* WeekOneProjectDropbox.NextResponderTextField.swift */; settings = {ASSET_TAGS = (); }; };
+		7C99E7741BB9EE3E0072689A /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C99E7731BB9EE3E0072689A /* CreateAccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7C99E7761BB9EF440072689A /* FeedScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C99E7751BB9EF440072689A /* FeedScrollViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7C99E7781BBA2A5C0072689A /* WebViewOfTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C99E7771BBA2A5C0072689A /* WebViewOfTermsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		7C99E74B1BB852530072689A /* WeekTwoProjectDropboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeekTwoProjectDropboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C99E74F1BB852530072689A /* WeekTwoProjectDropboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTwoProjectDropboxUITests.swift; sourceTree = "<group>"; };
 		7C99E7511BB852530072689A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C99E75D1BB852770072689A /* IntroScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroScrollViewController.swift; path = ../IntroScrollViewController.swift; sourceTree = "<group>"; };
+		7C99E7611BB858680072689A /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		7C99E7651BB960610072689A /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		7C99E76D1BB97A690072689A /* PageScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageScrollViewController.swift; sourceTree = "<group>"; };
+		7C99E76F1BB9CFDD0072689A /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		7C99E7711BB9E8830072689A /* WeekOneProjectDropbox.NextResponderTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekOneProjectDropbox.NextResponderTextField.swift; sourceTree = "<group>"; };
+		7C99E7731BB9EE3E0072689A /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		7C99E7751BB9EF440072689A /* FeedScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedScrollViewController.swift; sourceTree = "<group>"; };
+		7C99E7771BBA2A5C0072689A /* WebViewOfTermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewOfTermsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +115,18 @@
 		7C99E72E1BB852530072689A /* WeekTwoProjectDropbox */ = {
 			isa = PBXGroup;
 			children = (
+				7C99E7711BB9E8830072689A /* WeekOneProjectDropbox.NextResponderTextField.swift */,
+				7C99E76F1BB9CFDD0072689A /* Common.swift */,
 				7C99E72F1BB852530072689A /* AppDelegate.swift */,
+				7C99E7651BB960610072689A /* PopUpViewController.swift */,
+				7C99E75D1BB852770072689A /* IntroScrollViewController.swift */,
 				7C99E7311BB852530072689A /* ViewController.swift */,
+				7C99E7611BB858680072689A /* SignInViewController.swift */,
+				7C99E7751BB9EF440072689A /* FeedScrollViewController.swift */,
+				7C99E76D1BB97A690072689A /* PageScrollViewController.swift */,
+				7C99E7731BB9EE3E0072689A /* CreateAccountViewController.swift */,
 				7C99E7331BB852530072689A /* Main.storyboard */,
+				7C99E7771BBA2A5C0072689A /* WebViewOfTermsViewController.swift */,
 				7C99E7361BB852530072689A /* Assets.xcassets */,
 				7C99E7381BB852530072689A /* LaunchScreen.storyboard */,
 				7C99E73B1BB852530072689A /* Info.plist */,
@@ -255,8 +282,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C99E7721BB9E8830072689A /* WeekOneProjectDropbox.NextResponderTextField.swift in Sources */,
+				7C99E7781BBA2A5C0072689A /* WebViewOfTermsViewController.swift in Sources */,
+				7C99E76E1BB97A690072689A /* PageScrollViewController.swift in Sources */,
+				7C99E7621BB858680072689A /* SignInViewController.swift in Sources */,
+				7C99E7661BB960610072689A /* PopUpViewController.swift in Sources */,
 				7C99E7321BB852530072689A /* ViewController.swift in Sources */,
 				7C99E7301BB852530072689A /* AppDelegate.swift in Sources */,
+				7C99E7741BB9EE3E0072689A /* CreateAccountViewController.swift in Sources */,
+				7C99E7761BB9EF440072689A /* FeedScrollViewController.swift in Sources */,
+				7C99E75E1BB852770072689A /* IntroScrollViewController.swift in Sources */,
+				7C99E7701BB9CFDD0072689A /* Common.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +517,7 @@
 				7C99E7561BB852530072689A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C99E7571BB852530072689A /* Build configuration list for PBXNativeTarget "WeekTwoProjectDropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +526,7 @@
 				7C99E7591BB852530072689A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C99E75A1BB852530072689A /* Build configuration list for PBXNativeTarget "WeekTwoProjectDropboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +535,7 @@
 				7C99E75C1BB852530072689A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7C99E72B1BB852530072689A"
+               BuildableName = "WeekTwoProjectDropbox.app"
+               BlueprintName = "WeekTwoProjectDropbox"
+               ReferencedContainer = "container:WeekTwoProjectDropbox.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7C99E73F1BB852530072689A"
+               BuildableName = "WeekTwoProjectDropboxTests.xctest"
+               BlueprintName = "WeekTwoProjectDropboxTests"
+               ReferencedContainer = "container:WeekTwoProjectDropbox.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7C99E74A1BB852530072689A"
+               BuildableName = "WeekTwoProjectDropboxUITests.xctest"
+               BlueprintName = "WeekTwoProjectDropboxUITests"
+               ReferencedContainer = "container:WeekTwoProjectDropbox.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7C99E72B1BB852530072689A"
+            BuildableName = "WeekTwoProjectDropbox.app"
+            BlueprintName = "WeekTwoProjectDropbox"
+            ReferencedContainer = "container:WeekTwoProjectDropbox.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7C99E72B1BB852530072689A"
+            BuildableName = "WeekTwoProjectDropbox.app"
+            BlueprintName = "WeekTwoProjectDropbox"
+            ReferencedContainer = "container:WeekTwoProjectDropbox.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7C99E72B1BB852530072689A"
+            BuildableName = "WeekTwoProjectDropbox.app"
+            BlueprintName = "WeekTwoProjectDropbox"
+            ReferencedContainer = "container:WeekTwoProjectDropbox.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
