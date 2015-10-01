@@ -52,5 +52,12 @@ class CreateAccountViewController: UIViewController {
 
         }
 
+    @IBAction func termsBtnPressed(sender: AnyObject) {
+        performSegueWithIdentifier("termsWebsiteSegue", sender: nil)
     }
-
+    
+    @IBAction func createBtnPressed(sender: AnyObject) {
+        performSegueWithIdentifier("tutorialSegue", sender: nil)
+    }
+    
+}

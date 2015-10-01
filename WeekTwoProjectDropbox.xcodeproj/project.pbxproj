@@ -22,7 +22,8 @@
 		7C99E7721BB9E8830072689A /* WeekOneProjectDropbox.NextResponderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C99E7711BB9E8830072689A /* WeekOneProjectDropbox.NextResponderTextField.swift */; settings = {ASSET_TAGS = (); }; };
 		7C99E7741BB9EE3E0072689A /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C99E7731BB9EE3E0072689A /* CreateAccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		7C99E7761BB9EF440072689A /* FeedScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C99E7751BB9EF440072689A /* FeedScrollViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		7C99E7781BBA2A5C0072689A /* WebViewOfTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C99E7771BBA2A5C0072689A /* WebViewOfTermsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7C99E77A1BBA60E70072689A /* TermsWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C99E7791BBA60E70072689A /* TermsWebViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7CA0AB801BBD163200DADA41 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA0AB7F1BBD163200DADA41 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +65,8 @@
 		7C99E7711BB9E8830072689A /* WeekOneProjectDropbox.NextResponderTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekOneProjectDropbox.NextResponderTextField.swift; sourceTree = "<group>"; };
 		7C99E7731BB9EE3E0072689A /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		7C99E7751BB9EF440072689A /* FeedScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedScrollViewController.swift; sourceTree = "<group>"; };
-		7C99E7771BBA2A5C0072689A /* WebViewOfTermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewOfTermsViewController.swift; sourceTree = "<group>"; };
+		7C99E7791BBA60E70072689A /* TermsWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsWebViewController.swift; sourceTree = "<group>"; };
+		7CA0AB7F1BBD163200DADA41 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +127,9 @@
 				7C99E7751BB9EF440072689A /* FeedScrollViewController.swift */,
 				7C99E76D1BB97A690072689A /* PageScrollViewController.swift */,
 				7C99E7731BB9EE3E0072689A /* CreateAccountViewController.swift */,
+				7C99E7791BBA60E70072689A /* TermsWebViewController.swift */,
+				7CA0AB7F1BBD163200DADA41 /* SettingsViewController.swift */,
 				7C99E7331BB852530072689A /* Main.storyboard */,
-				7C99E7771BBA2A5C0072689A /* WebViewOfTermsViewController.swift */,
 				7C99E7361BB852530072689A /* Assets.xcassets */,
 				7C99E7381BB852530072689A /* LaunchScreen.storyboard */,
 				7C99E73B1BB852530072689A /* Info.plist */,
@@ -283,16 +286,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C99E7721BB9E8830072689A /* WeekOneProjectDropbox.NextResponderTextField.swift in Sources */,
-				7C99E7781BBA2A5C0072689A /* WebViewOfTermsViewController.swift in Sources */,
 				7C99E76E1BB97A690072689A /* PageScrollViewController.swift in Sources */,
 				7C99E7621BB858680072689A /* SignInViewController.swift in Sources */,
 				7C99E7661BB960610072689A /* PopUpViewController.swift in Sources */,
 				7C99E7321BB852530072689A /* ViewController.swift in Sources */,
 				7C99E7301BB852530072689A /* AppDelegate.swift in Sources */,
+				7C99E77A1BBA60E70072689A /* TermsWebViewController.swift in Sources */,
 				7C99E7741BB9EE3E0072689A /* CreateAccountViewController.swift in Sources */,
 				7C99E7761BB9EF440072689A /* FeedScrollViewController.swift in Sources */,
 				7C99E75E1BB852770072689A /* IntroScrollViewController.swift in Sources */,
 				7C99E7701BB9CFDD0072689A /* Common.swift in Sources */,
+				7CA0AB801BBD163200DADA41 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,32 +8,30 @@
 
 import UIKit
 
-class FeedScrollViewController: UIViewController {
+class FeedScrollViewController: UIViewController, UIScrollViewDelegate {
 
     
-    
-    
+
+
+    //MARK: Outlets
     @IBOutlet weak var feedScrollView: UIScrollView!
     @IBOutlet weak var feedView: UIImageView!
     
 
     override func viewDidLoad() {
         
-//        feedScrollView.NavigationItem.SetLeftBarButtonItem (new UIBarButtonItem(
-//            UIImage.FromFile("profile.png"), UIBarButtonItemStyle.Plain, (sender, args) => {
-//                NavigationController.PopViewControllerAnimated(true);
-//            }), true);
-        
         super.viewDidLoad()
-
-    feedScrollView.contentSize = CGSizeMake(320, feedView.image!.size.height)
+        
+        feedScrollView.contentSize = CGSizeMake(320, feedView.image!.size.height)
+        feedScrollView.delegate = self
     }
     
-    
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func profileSettingsBtnPressed(sender: AnyObject){
+        performSegueWithIdentifier("profileSettingsSegue", sender: nil)
     }
 
+    @IBAction func converasation(sender: AnyObject) {
+        performSegueWithIdentifier("conversationSegue", sender: nil)
+    }
+    
 }
