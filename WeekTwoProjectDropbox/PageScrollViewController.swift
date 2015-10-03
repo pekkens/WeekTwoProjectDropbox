@@ -30,19 +30,24 @@ class PageScrollViewController: UIViewController, UIScrollViewDelegate, UIPageVi
         
         scrollView.contentSize = CGSize(width: 1280, height: 568)
         scrollView.delegate = self
+        self.interactiveView.hidden = true
+
         
     }
     
     func scrollViewDidScroll(scrollView: UIScrollView) {
         
-        let offset = CGFloat(scrollView.contentOffset.y)
-        let alpha = convertValue(offset, r1Min: 0, r1Max: 1280, r2Min: 0, r2Max: 1)
+        self.interactiveView.hidden = false
         
-        //MARK: Fix
-        interactiveView.transform = CGAffineTransformMakeTranslation (CGFloat (alpha), CGFloat (alpha))
-
-            
-        print("content offset: \(scrollView.contentOffset.y)")
+        let offset = CGFloat(scrollView.contentOffset.x)
+        let alphaOffset = (offset + 320)
+        let alpha = convertValue(alphaOffset, r1Min: 960, r1Max: 1280, r2Min: 0, r2Max: 1)
+        
+        interactiveView.alpha = alpha
+        
+        print("alpha is: \(alpha)")
+        print("alphaOffset is: \(alphaOffset)")
+        print("content offset: \(scrollView.contentOffset.x)")
         
     }
 
