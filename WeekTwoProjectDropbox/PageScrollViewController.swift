@@ -24,6 +24,8 @@ class PageScrollViewController: UIViewController, UIScrollViewDelegate, UIPageVi
     @IBOutlet weak var backupStatusLabel: UILabel!
     @IBOutlet weak var spinBtn: UIButton!
     @IBOutlet weak var interactiveView: UIView!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,8 +33,6 @@ class PageScrollViewController: UIViewController, UIScrollViewDelegate, UIPageVi
         scrollView.contentSize = CGSize(width: 1280, height: 568)
         scrollView.delegate = self
         self.interactiveView.hidden = true
-
-        
     }
     
     func scrollViewDidScroll(scrollView: UIScrollView) {

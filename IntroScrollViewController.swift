@@ -21,8 +21,9 @@ class IntroScrollViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var tileFour: UIImageView!
     @IBOutlet weak var tileFive: UIImageView!
     @IBOutlet weak var tileSix: UIImageView!
-    
-    
+    @IBOutlet weak var canvasRedMask: UIImageView!
+    @IBOutlet weak var canvasGreenMask: UIImageView!
+    @IBOutlet weak var canvasBlueMask: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,6 +39,22 @@ class IntroScrollViewController: UIViewController, UIScrollViewDelegate {
         introScroll.delegate = self
         
         introScroll.sendSubviewToBack(introContent)
+        
+        canvasBlueMask.alpha = 1
+        canvasGreenMask.alpha = 1
+        canvasRedMask.alpha = 1
+        
+        UIView.animateWithDuration(0.5, animations: {
+            self.canvasBlueMask.alpha = 0
+        })
+        
+        UIView.animateWithDuration(1.0, animations: {
+            self.canvasGreenMask.alpha = 0
+        })
+        
+        UIView.animateWithDuration(1.5, animations: {
+            self.canvasRedMask.alpha = 0
+        })
         
     }
     
