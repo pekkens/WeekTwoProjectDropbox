@@ -44,17 +44,18 @@ class IntroScrollViewController: UIViewController, UIScrollViewDelegate {
         canvasGreenMask.alpha = 1
         canvasRedMask.alpha = 1
         
-        UIView.animateWithDuration(0.5, animations: {
+        
+        UIView.animateWithDuration(0.5, delay: 0.5, options: [], animations: { () -> Void in
             self.canvasBlueMask.alpha = 0
-        })
-        
-        UIView.animateWithDuration(1.0, animations: {
+            }, completion: nil)
+
+        UIView.animateWithDuration(1.0, delay: 0.9, options: [], animations: { () -> Void in
             self.canvasGreenMask.alpha = 0
-        })
+            }, completion: nil)
         
-        UIView.animateWithDuration(1.5, animations: {
+        UIView.animateWithDuration(1.5, delay: 1.3, options: [], animations: { () -> Void in
             self.canvasRedMask.alpha = 0
-        })
+            }, completion: nil)
         
     }
     
@@ -142,6 +143,7 @@ class IntroScrollViewController: UIViewController, UIScrollViewDelegate {
     @IBAction func signInBtnPressed(sender: AnyObject) {
         performSegueWithIdentifier("SignInVeiwControllerSegue", sender: nil)
     }
+}
  
 
-}
+
