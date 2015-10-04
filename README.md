@@ -42,7 +42,7 @@ Optional:
 
 Visual Walk Through:
 
-![weektwoprojectdropbox](https://cloud.githubusercontent.com/assets/9056938/10216782/63769084-67e0-11e5-8f64-c64515b724d9.gif)
+![weektwoprojectdropbox](https://cloud.githubusercontent.com/assets/9056938/10270126/96ddf966-6a9d-11e5-9a46-2314d333bd99.gif)
 
 
 
